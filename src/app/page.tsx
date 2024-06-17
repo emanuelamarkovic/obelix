@@ -1,11 +1,10 @@
 import React from "react";
+import { Header } from "@/components";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>
-        <h1>Willkommen auf der Startseite</h1>
-      </div>
-    </main>
+    <div>
+      <Header />
+    </div>
   );
 }
